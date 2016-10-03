@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GameKit/GameKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GKGameCenterControllerDelegate>
 
 
 @end
